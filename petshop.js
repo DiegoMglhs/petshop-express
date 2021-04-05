@@ -63,12 +63,10 @@ const petshop = {
             bancoDados.pets.push(novoPet);
         })
     
-        // atualizarBanco();
+        petshop.atualizarBanco();
         novosPets.forEach((pet) => {
             console.log(`${pet.nome} foi adicionado com sucesso!`);
         })
-        let petsAtualizado = JSON.stringify(bancoDados, null, 2);
-        fs.writeFileSync('bancoDados.json', petsAtualizado, 'utf-8');
     },
 
     darBanhoPet: pet => {

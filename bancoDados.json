@@ -136,6 +136,17 @@
       "contato": "(11) 95428-9682",
       "vacinado": true,
       "servicos": []
+    },
+    {
+      "nome": "tamtam",
+      "tipo": "cachorro",
+      "idade": 7,
+      "raca": "Welsh Corgi",
+      "peso": 12,
+      "tutor": "Douglas",
+      "contato": "(11) 99856-3584",
+      "vacinado": true,
+      "servicos": []
     }
   ]
 }
